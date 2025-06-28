@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="kn">
+<head>
+  <meta charset="UTF-8">
+  <title>ಭಕ್ತಿಗೀತೆಗಳು</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Kannada:wght@700;400&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      min-height: 100vh;
+      font-family: 'Noto Sans Kannada', serif;
+      background: 
+        linear-gradient(to bottom right, rgba(48, 20, 93, 0.7), rgba(0,0,0,0.7)),
+        url('image.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #fdf6e4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .container {
+      background: rgba(0, 0, 0, 0.75);
+      padding: 40px 32px;
+      border-radius: 20px;
+      text-align: center;
+      box-shadow: 0 8px 32px 0 rgba(0,0,0,0.35);
+      max-width: 380px;
+      width: 90vw;
+      backdrop-filter: blur(3px);
+      animation: fadeInUp 1.2s cubic-bezier(.52,.23,.22,1.01);
+    }
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(40px);}
+      to { opacity: 1; transform: translateY(0);}
+    }
+    h1 {
+      color: #ffdd00;
+      font-size: 2.1em;
+      margin-bottom: 28px;
+      letter-spacing: 0.02em;
+      text-shadow: 0 2px 12px #000;
+      animation: titleGlow 2.5s infinite alternate;
+    }
+    @keyframes titleGlow {
+      from { text-shadow: 0 2px 12px #000, 0 0 8px #FFD70033; }
+      to   { text-shadow: 0 2px 20px #000, 0 0 24px #FFD70099;}
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    li {
+      margin: 18px 0;
+    }
+    a {
+      color: #fff;
+      font-size: 1.18em;
+      text-decoration: none;
+      background: linear-gradient(90deg, #ffd70077 0%, #fbb03477 100%);
+      padding: 12px 30px;
+      border-radius: 10px;
+      display: inline-block;
+      box-shadow: 0 2px 8px #0004;
+      transition: background 0.25s, color 0.25s, transform 0.15s, box-shadow 0.15s;
+      outline: none;
+      font-weight: bold;
+      letter-spacing: 0.01em;
+    }
+    a:hover, a:focus {
+      background: linear-gradient(90deg, #ffd700cc 0%, #fbb034cc 100%);
+      color: #432000;
+      transform: translateY(-2px) scale(1.045);
+      box-shadow: 0 4px 18px #ffd70055, 0 2px 12px #0004;
+      text-decoration: none;
+    }
+    @media (max-width: 600px) {
+      .container {
+        padding: 18px 4vw;
+        max-width: 98vw;
+      }
+      h1 {
+        font-size: 1.25em;
+      }
+      a {
+        font-size: 1em;
+        padding: 10px 10vw;
+      }
+      li {
+        margin: 12px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🕉️ ಭಕ್ತಿಗೀತೆಗಳ ಆಯ್ಕೆ</h1>
+    <ul>
+      <li><a href="m.html">🪔 ಶ್ರೀ ಮಹಾದೇವನ ಆರತಿ</a></li>
+      <li><a href="n.html">🪔 ಅಂಬಾ ಭವಾನಿ ಆರತಿ</a></li>
+      <li><a href="r.html">🪔 ಗಣಪತಿ ಆರತಿ</a></li>
+      <li><a href="o.html">🪔 ಶೆಂದುರ ಲಾಲ - ಗಜಮುಖಕೋ</a></li>
+      <li><a href="l.html">🪔 ಶ್ರೀ ದತ್ತಾತ್ರೇಯ ಆರತಿ</a></li>
+      <li><a href="p.html">🪔 ಶ್ರೀ ಹನುಮಾನಜಿ ಆರತಿ</a></li>
+    </ul>
+  </div>
+</body>
+</html>
